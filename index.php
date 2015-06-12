@@ -6,9 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Study in Germany</title>
+		<title>Study in Germany-Peasantsb Ludhiana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="We, PeasantsB, are the consultants and guide regarding Study in Germany. We are based in Ludhiana." />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -17,66 +18,7 @@
 	</head>
 	<body>
 		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-					<div id="logo">
-						<a href="index.html"><span class="image avatar48"><img src="images/Pb.jpeg" alt="" /></span></a>
-							<a href="index.html"><h1 id="title">Peasants B</h1>
-							<p>German Consultants</p>
-						</div></a>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Why Germany</span></a></li>
-								<li><a href="#courses" id="courses-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Courses</span></a></li>
-								<li><a href="#services" id="services-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Services</span></a></li>
-								<li><a href="aboutus.html" id="services-link" class="skel-layers-ignoreHref"><span class="icon fa-th">About us</span></a></li>
-								<li><a href="faqs.html" id="services-link" class="skel-layers-ignoreHref"><span class="icon fa-th">FAQs</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-						<ul class="icons">
-							<li>Call us at:</li><br>
-							<li>8196928248 , </li>
-							<li> 8196928258</li>
-<!--							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-						</ul>
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="http://facebook.com/profile.php?id=819061461515930" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="http://facebook.com/profile.php?id=819061461515930" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-<!--							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
+		<?php require_once "headerlocal.php"; ?>	
 
 		<!-- Main -->
 			<div id="main">
@@ -92,7 +34,7 @@
 							</header>
 
 							<footer>
-								<a href="benefits.html" class="button scrolly">Benefits</a>
+								<a href="benefits.php" class="button scrolly">Benefits</a>
 							</footer>
 
 						</div>
@@ -112,13 +54,13 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="about.html" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="about.php" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>About Germany</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="education.html" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="education.php" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Education System</h3>
 										</header>
@@ -126,13 +68,13 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="job.html" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="job.php" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
 										<header>
 											<h3>Job Opportunities</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="industry.html" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="industry.php" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
 										<header>
 											<h3>Industry</h3>
 										</header>
@@ -140,13 +82,13 @@
 								</div>
 								<div class="4u$ 12u$(mobile)">
 									<article class="item">
-										<a href="pr.html" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="pr.php" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
 										<header>
 											<h3>Permanent Residence</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="life.html" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="life.php" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
 										<header>
 											<h3>Lifestyle</h3>
 										</header>
@@ -169,7 +111,7 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="medical.html" class="image fit"><img src="images/medical.jpg" alt="" /></a>
+										<a href="medical.php" class="image fit"><img src="images/medical.jpg" alt="" /></a>
 										<header>
 											<h3>Medical</h3>
 										</header>
@@ -183,7 +125,7 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="engineering.html" class="image fit"><img src="images/engineering.jpg" alt="" /></a>
+										<a href="engineering.php" class="image fit"><img src="images/engineering.jpg" alt="" /></a>
 										<header>
 											<h3>Engineering</h3>
 										</header>
@@ -197,7 +139,7 @@
 								</div>
 								<div class="4u$ 12u$(mobile)">
 									<article class="item">
-										<a href="other.html" class="image fit"><img src="images/commerce.jpg" alt="" /></a>
+										<a href="other.php" class="image fit"><img src="images/commerce.jpg" alt="" /></a>
 										<header>
 											<h3>Other Courses</h3>
 										</header>
