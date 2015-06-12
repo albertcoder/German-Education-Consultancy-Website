@@ -55,7 +55,7 @@
 							<li><a href="http://facebook.com/profile.php?id=819061461515930" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 <!--							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="mailto:eralbert9191@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>

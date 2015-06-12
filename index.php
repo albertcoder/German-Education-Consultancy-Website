@@ -261,7 +261,7 @@
 
 							<p>Please drop a letter in our letter-box and we will respond soon! :)</p>
 
-							<form method="post" action="#">
+							<form method="post" action="sendmail.php">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
